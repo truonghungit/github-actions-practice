@@ -26,8 +26,8 @@ jobs:
         run: |
           echo "Workflow-level variable:   $WORKFLOW_VAR"
           echo "Workflow-level variable 2: $WORKFLOW_VAR_2"
-          echo "Job-level variable:        ${JOB_VAR:-UNDEFINED}"
-          echo "Step-level variable:       ${STEP_VAR:-UNDEFINED}"
+          echo "Job-level variable:        ${JOB_VAR:-<UNDEFINED>}"
+          echo "Step-level variable:       ${STEP_VAR:-<UNDEFINED>}"
 
   job-2:
     runs-on: ubuntu-latest
@@ -36,5 +36,5 @@ jobs:
         run: |
           echo "Workflow-level variable:   $WORKFLOW_VAR"
           echo "Workflow-level variable 2: $WORKFLOW_VAR_2"
-          echo "Job-level variable:        ${JOB_VAR:-UNDEFINED}"
-          echo "Step-level variable:       ${STEP_VAR:-UNDEFINED}"
+          echo "Job-level variable:        ${JOB_VAR:-<UNDEFINED>}"
+          echo "Step-level variable:       ${STEP_VAR:-<UNDEFINED>}"
