@@ -1,0 +1,11 @@
+name: Hello Github Actions
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello from an inline bash script in a GitHub Actions workflow!"
