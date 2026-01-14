@@ -7,6 +7,8 @@ jobs:
   artifact-producer:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Create a file to upload as an artifact
         run: |
           echo "This is a sample artifact file." > sample-artifact.txt
