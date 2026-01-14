@@ -1,4 +1,4 @@
-name: 01 Hello Github Actions
+name: 01-01 Hello Github Actions
 
 on:
   workflow_dispatch:

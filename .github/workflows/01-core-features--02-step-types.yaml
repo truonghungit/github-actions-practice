@@ -1,4 +1,4 @@
-name: 02 Step Types
+name: 01-02 Step Types
 
 on:
   workflow_dispatch:

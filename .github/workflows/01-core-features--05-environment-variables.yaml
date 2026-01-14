@@ -1,4 +1,4 @@
-name: 05 Environment Variables
+name: 01-05 Environment Variables
 
 on:
   workflow_dispatch:
